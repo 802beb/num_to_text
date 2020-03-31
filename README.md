@@ -1,10 +1,10 @@
-#num_to_text
+# num_to_text
 ### Converts given integer number to its string representation (RU/russian)
 
 Limitations: positive integers up to N * 10^123,
 where 0 < N < 1000
 
-##examples:
+## examples:
 ```python
 from num_to_text import num_to_text
 
