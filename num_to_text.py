@@ -65,9 +65,6 @@ def num_to_text(num: int) -> str:
 
     def divide_and_conc(tok: int, rank: int = 0) -> str:
 
-        if rank >= 40:
-            raise ValueError('Number is too big! Max value is N*10^123, where 0 < N < 1000')
-
         if float(tok) / 1000 > 1:
             cur = tok % 1000
             next_ = tok // 1000
